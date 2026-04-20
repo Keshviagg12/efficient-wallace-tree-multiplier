@@ -38,7 +38,7 @@ The multiplier was verified using a comprehensive testbench to ensure accuracy a
 ### Simulation Waveform
 *The following image demonstrates the functional verification of the multiplier, showing inputs A, B, and the resulting output Out matching expected products.*
 
-![Simulation Waveform](waveform.png)
+![Simulation Waveform](./waveform.png)
 
 ## 💡 Engineering Highlights
 * **Modular Codebase:** Developed reusable `FullAdder` and `HalfAdder` modules to minimize code redundancy and ensure a clean, hierarchical design.
