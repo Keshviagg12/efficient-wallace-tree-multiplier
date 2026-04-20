@@ -12,8 +12,7 @@ This project is a high-performance **5x5-bit Wallace Tree Multiplier** implement
 ## 📐 Architecture & Logic
 The design is modularized for better maintainability and uses structural Verilog modeling to ensure clear hierarchy. The implementation follows four distinct stages:
 
-![Uploading Wallace Tree Multiplier.png…]()
-
+![5x5 Wallace Tree Multiplier Architecture](Wallace%20Tree%20Multiplier.jpg)
 
 1. **Step 1: Partial Product Generation:** A logic grid is formed for the 5x5 multiplication.
 2. **Step 2: Wallace Tree Reduction:** Using a hierarchy of custom `FullAdder` and `HalfAdder` modules to reduce partial products.
